@@ -46,7 +46,7 @@ bellButton = Button(6)
 bellButton.when_pressed = BellButtonPressedEvent
 
 print('Preparing connection to Facebook messenger...')
-client = fbchat.Client('alica.homeguard@protonmail.com','pankodankojonatanko')
+client = fbchat.Client('alica.homeguard@protonmail.com','**********')
 if client.isLoggedIn():
 	print('I am ready...')
 	SendMessage('Ahoj môj pane! \nZvonček je pripravený')
